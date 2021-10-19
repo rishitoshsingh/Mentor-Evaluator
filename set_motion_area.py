@@ -20,7 +20,7 @@ def get_new_motion_box(corner_1, corner_2):
 motion_box = get_new_motion_box(corner_1=[0,0], corner_2=list(RESOLUTION))
 motion_boxes.append(motion_box)
 
-video_file = 'videos/How Apple Siri Voice Recognition works - 15 May 2021-8s7zQbnquz0.mp4'
+video_file = 'videos/2.mp4'
 
 def showRecordingVideo(motion_boxes):
     cap = VideoStream(video_file).start()
