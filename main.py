@@ -68,8 +68,8 @@ while True:
         cos_d *= 100
         
         org_frame = cv2.putText(org_frame, str(int(cos_d)), (50,50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255,0,0), 2, cv2.LINE_AA)
-        cv2.imshow('Video', org_frame)
-        cv2.imshow('Slide', org_slides[current_slide])
+        # cv2.imshow('Video', org_frame)
+        # cv2.imshow('Slide', org_slides[current_slide])
     
         if current_slide < current_slide + sim_index and cos_d >= DETECTION_THRESHOLD:
             current_slide = current_slide + sim_index
@@ -79,9 +79,9 @@ while True:
             end_timestamps[current_slide-1] = timestamp
             print('Topic End Triggered - ',end_timestamps[current_slide-1])
         
-    if cv2.waitKey(1) == ord('q'):
-        cap.release()
-        break
+    # if cv2.waitKey(1) == ord('q'):
+    #     cap.release()
+    #     break
 
 data = {}
 data['slide_no'] = list(range(0, len(slide_files)))

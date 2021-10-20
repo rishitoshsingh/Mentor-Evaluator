@@ -5,4 +5,5 @@ predictions/
 __pycache__/
 .vscode/
 slides/
+*.xlsx
 
