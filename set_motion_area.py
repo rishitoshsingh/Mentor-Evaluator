@@ -72,11 +72,14 @@ motion_boxes = showRecordingVideo(motion_boxes)
 print(motion_boxes)
 print(len(motion_boxes))
 
-with open('configs/motion_location.json','w') as file:
-    json.dump(motion_boxes, file, indent=4)
-    
-# with open('configs/video_play_button_location.json','w') as file:
+# with open('configs/motion_location.json','w') as file:
 #     json.dump(motion_boxes, file, indent=4)
+    
+# with open('configs/tl_logo_location.json','w') as file:
+#     json.dump(motion_boxes, file, indent=4)
+    
+with open('configs/slide_title_location.json','w') as file:
+    json.dump(motion_boxes, file, indent=4)
     
 # with open('configs/colab_logo_location.json','w') as file:
 #     json.dump(motion_boxes, file, indent=4)
