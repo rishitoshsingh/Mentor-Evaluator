@@ -3,12 +3,6 @@ import cv2
 import numpy as np
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
-import xlsxwriter
-
-def ocr(image_mat):
-    image_mat = cv2.cvtColor(image_mat, cv2.COLOR_BGR2RGB)
-    content = pytesseract.image_to_string(image_mat)
-    return content
 
 def load_slides(files, target_shape, content_config):
     images = np.zeros((len(files),)+target_shape)
@@ -30,6 +24,13 @@ def get_frame_skip(video, fpm):
     frame_skip = int(fps * 60 / fpm)
     return frame_skip
 
+def get_time(seconds):
+    hour = seconds // 3600
+    seconds = seconds - hour*3600
+    minute = seconds // 60
+    seconds = seconds - minute*60
+    return "{}:{}:{}".format(int(hour), int(minute), int(seconds))
+
 def get_cosine_score(X, y):
     ravel = False
     if X.ndim == 1:
@@ -47,7 +48,7 @@ def to_excel(excel_file, data_df, images):
     writer = pd.ExcelWriter(excel_file, engine='xlsxwriter')
     data_df.to_excel(writer, sheet_name='Sheet1', index=False)
 
-    workbook  = writer.book
+    workbook = writer.book
     worksheet = writer.sheets['Sheet1']
 
     worksheet.set_column('B:B',13)

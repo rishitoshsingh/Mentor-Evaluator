@@ -1,0 +1,448 @@
+11:20:04 Hi guys welcome to yet another workshop on app or city voice recognition system. So I hope my voice is audible if it is not pleased mentioned in the chat section.
+11:20:14 Okay, so let's start off with the session.
+11:20:18 So as you all know, that we conduct workshops, every weekend with the sole purpose of discovering knowledge through different brand stories. So today, as we talked about.
+11:20:32 And that will be discussing about Apple CD voice recognition system. Okay, So I just clicked on my video.
+11:20:42 Okay.
+11:20:46 Okay, so I hope you all can see me and hear me as well. Okay. So, before we start off with the session or the workshop, I just give a brief introduction about myself.
+11:20:58 Okay.
+11:21:01 So, I like it too. Okay, so my name is Dr. De Lima, I am a data scientist at tackler, I'm skilled in Python, computer vision and natural language processing.
+11:21:11 So I also like photography and I have a keen interest in music and reading. So I quite a lot do that in my free time. So, before we start off with the session.
+11:21:22 I think it's very important to know what will be the base which will follow. So let's start. So, initially, we'll talk about Apple, the company's Genesis, how Apple raised to such huge success and became the big five in the US, and then we'll talk about
+11:21:39 the main problem statement of today's workshop, which is understanding voice identification. So we'll talk about it, along with along with its diverse applications and different domains.
+11:21:49 Okay. And then we'll finally talk about the technology behind voice identification. So by the end of this presentation you all will be able to, you know, build a voice identification system on your own.
+11:22:03 Okay. So, moving ahead, let's start this workshop with a very simple poll example poll question. So I'll be launching a poll, so all of you who know the question of this will know the answer of this question which is, who founded Apple, please mark your
+11:22:18 questions, answers, and then we'll see.
+11:22:22 So I'm launching the poll.
+11:22:25 So please mark answers whatsoever you think is right, and then we'll discuss.
+11:22:50 You can multi select guys so it's not important that one only one of these is the correct answer so you can choose multi select it is even possible at all before or the correct answer so just
+11:23:15 please I see many people are giving the right answers.
+11:23:18 So, okay, so I'll share the results of the ball with you.
+11:23:27 Okay. So as you can see that 85% of people mark, Steve Jobs as answer and 9% went for Steve Wozniak 3% for Ronald Wayne and 3% but Tim Cook. Okay, so nice quite suddenly, I'll have to tell you that the answer of this question is multi select and the correct
+11:23:48 answer is that Steve Jobs, Steve Wozniak and Ronald been founded apple in 1976, and you won't believe it that the first Apple one and Apple to an apple tree, all its production launch in Steve Jobs garage, which was a very small place.
+11:24:05 So, initially as I told you that the first product launch by them was Apple one followed which they launched Apple to an apple tree. So, they all share the same vision of revolutionising the perceptions of people towards computer and now we can all agree
+11:24:23 that they successfully did it. So for those who aren't. Mark the answer that's him cook, so let me tell you guys. Apple is currently headed by Tim Cook, but it was founded by all those three people.
+11:24:35 Okay.
+11:24:38 So moving ahead.
+11:24:39 Let's see how these people revolutionized personal computing through innovation, back in the previous year where technology was not much developed, so we'll see, we'll see a video for this.
+11:24:55 Please tell me, please share with me the voice, the voice of the video is available to you. If it is not, as mentioned it in the chat section.
+11:25:22 Okay. Some of you are saying that it is not audible so I just take my settings and I'll get back to you.
+11:26:16 is more powerful than any age.
+11:26:20 We all want.
+11:26:41 On January, 24, Apple computer will introduce Macintosh, and you'll see why 1984 would be like 1980.
+11:26:51 So guys, this video was an advertisement for Macintosh which was launched back in 1986, it was launched way ahead of its time technology wise, and you can see how chilling the advertisement for this is.
+11:27:05 So, moving ahead.
+11:27:07 Let's have a look at one or one on the move more advertisements launched by Apple, in which, how it is cleverly clearly distinguishing how Apple is better than Windows, in terms of the specifications and the services offered.
+11:27:23 Hello on my Mac. I have a PC, ready to get started. Oh, not quite got a lot to do. What's your big plan, I might make a movie or maybe create a website try my built in camera, how you do it all right on the box so what about you.
+11:27:35 Well, firstly, how to download those new drivers and I had a race the trial software that came on my hard drive. And I've got a lot of manual story you know it sounds like you have a lot of stuff to do before you do any stuff so I'm just gonna get started
+11:27:46 started cuz I'm kind of excited. Let me know when you're ready.
+11:27:50 Actually, the rest of mixing some other boxes so I'll meet up with you later.
+11:27:54 Okay so this was a fun video.
+11:27:57 So in this apple was basically mocking a Windows, that he needs to install all those applications and everything before starting off. But on the other hand in Apple if you're using it, you get pre installed applications and everything.
+11:28:11 So, I hope you all liked it. So moving on.
+11:28:17 So moving on, late like I told you that Apple started launching its products, way ahead before their time. So, once they became so successful and they started gaining profits, they decided to spread their roots in the personal entertainment domain so
+11:28:30 they launched, I bought an iTunes, I hope you all know what are these items. So let us have a look at the first advertisement of Apple, and all these both these products.
+11:29:37 iPod 1000 songs in your pocket.
+11:29:42 Okay.
+11:29:46 So, okay, after knowing all these things and all these products offered by Apple, I would like to raise one more poll question for you all guys let's see how many of you know the answer of this question.
+11:30:00 Okay, So, I'll be launching the pole so whoever knows the answer. Please market correct, and then we'll discuss.
+11:30:09 You can put the answers in the chat section also.
+11:30:34 Okay, Jonathan you've been raising hand for a while. Oh, do you have anything to say, I'll unmute you and you can put across your doubt.
+11:30:49 Okay, nothing.
+11:30:51 Okay, so most of you have marked the answer. So I just end polling, and I will share the results.
+11:31:00 So 68% people.
+11:31:03 Mark Bexar animated studios as one of the companies founded by Steve Jobs, which is the correct answer. So, rest of the three companies new media atari and Western Digital are not founded by Steve Jobs.
+11:31:16 So Pixar animator studio is one of those Studios which has launched famous movies like inside out, and so on.
+11:31:28 So now that we've talked about the basics of like Apple we know what the company how it started its genesis. Now let's talk about our main problem stated statement, which is Apple identification system.
+11:31:42 So, okay. So before we move ahead. So, what is your understanding on Apple I mean like I told you it has been way ahead of its time, technology wise does, what do you think like Apple uses data science machine learning and artificial intelligence for
+11:31:58 any of the applications, I mean can you draw any examples in which you think Apple has used any of these. If you have, you can put it in the tag section or you can raise your hand, I can unmute you and we can just have a discussion over it.
+11:32:15 Any example you think, in which Apple has again no to raise his hand.
+11:32:23 Okay. Please share your input.
+11:32:29 To me, I think.
+11:32:35 And let us see.
+11:32:35 Okay, yes good a great example any other example which can think of.
+11:32:42 Okay, great, great input on that one.
+11:32:47 Okay, so we have one more hand raised.
+11:32:50 Okay, it went away. So let's move on to the chat section and see what all inputs you have.
+11:33:01 Okay, so that's also wants to talk, a high Suresh, Do you have any input.
+11:33:06 Yes.
+11:33:20 Great answer storage.
+11:33:21 Okay, so we have answers like Siri, Apple Watch Health app, and iCloud a sad face ID image detection excellent guys.
+11:33:33 These all are the perfect examples which was through for Apple using data science words technology development. So, fingerprint sensor face recognition and like some of you even said to yourself, so it's absolutely correct Apple uses voice identification
+11:33:55 technology in city, so that it actually comprehends what commands we're passing in. Okay. So, moving on. Since we know that the answer is yes, let's see how CD actually works and how CD has simplified, our lives from day to day basis.
+11:34:11 This is iPhone six ass. Not much has changed, except now you can say Siri Hey city. Hey Siri, how you get in touch, how you get answers, was the Prime Minister of Britain in 1868.
+11:34:25 Benjamin Disraeli course that Amir very expensive coffee shop with outdoor seating.
+11:34:35 You can do almost anything just with your voice. number.
+11:34:37 1979. So yeah, that's what strange.
+11:34:43 Okay, so guys in the video you can clearly see how city has made our life so wonderful and has helped us to do our daily calls. So now what's the technology behind city.
+11:34:54 So we rightly jump on to the problem statement of today's workshop which is voice identification using city. So, Apple actually first introduced city in the iPhone for us.
+11:35:05 And then it became quite famous with different features and success. So, what is voice identification. I mean what do we actually do invoice identification so voice identification basically helps us to identify who is talking and not instead of what is
+11:35:21 being spoken. Like, if you talk specifically about voice identification, it will only help you identify the voice of the user. And it will help you to identify and even, it is that is why it is using for security purposes well so do not misinterpreted
+11:35:40 as it is telling you what is being spoken in a way that it tells you the context of what has been said, but it just helps you to identify the voice. Now how does it help, and what are the applications of voice identification in different different industries
+11:35:54 before we right on jump discussing how it actually happens. So, this is a very. This is a video from the Iron Man movie, I am sure all of you must have watched it.
+11:36:05 So, let us see how Iron Man is using voice identification, to help Jarvis do his daily measures on task, back to the Cisco haven't reconfigure the show metals used to go titanium alloy from the server from tactical satellite and should ensure a fuselage
+11:36:21 integrity while maintaining power to weight ratio got it. Yes. Shall I render using proposed specifications from a
+11:36:31 red hot red carpet is right here.
+11:36:35 Okay, back to the Cisco haven't reconfigured the show metals used to gold titanium alloy from the Sarah from tactical satellite that should ensure a fuselage integrity while maintaining power to weight ratio got it.
+11:36:47 Yes. Shall I render using proposed specifications from a
+11:36:54 red hot red carpet is right here.
+11:36:56 Okay. So, let us look at some other applications of voice voice identification with this video. So let's see.
+11:37:27 Hello.
+11:37:38 So we can clearly see in this video how voice identification has made it so easy to control electronics appliances at our home. In fact, other companies as well are also using voice identification and launching them specifically products to control appliances
+11:37:54 just by clicking on your cell phone.
+11:37:56 So moving ahead let's see one another application of voices identification, which I believe personally that it is the most beneficial, which is for disabled persons, let's see what this video has for us.
+11:38:11 Let's try this one today.
+11:38:14 Thumbs up emoji.
+11:38:17 Click Send open mouth
+11:38:26 open app switcher.
+11:38:28 So, I hope you must be a short and convinced by now how wife identification is helping us to perform our daily day to day life and cause, so.
+11:38:43 Okay, so let's move ahead.
+11:38:47 So now let's talk about voice identification.
+11:38:51 Okay, let me first remove this. All right.
+11:38:54 Okay, so now let's talk about voice identification and actually discuss what happens when you give an input as a voice so invoice identification what we actually do is that, like you talk about face recognition and finger print sensors.
+11:39:12 So what happens in there your biological features and fingerprint sensor your fingertips are taken in and say, in face recognition your facial features are taken into account.
+11:39:37 So, just like them just like a face recognition and by a fingerprint sensor voice identification works the same way so invoice identification you take voice as an input and you come up with the physical and biological aspect of of your voice like tone
+11:39:40 pitch and, you know, different dynamics, which we'll discuss in the coming slides. So these are all things are taken into account and they are digitized basically because whenever you're talking with a machine or whenever you're working with a machine,
+11:39:53 you need to convert whatever input you are giving into numbers because machines, only understand binary numbers, right. So, we can also say that it is also one of biometric technologies.
+11:40:08 And you can also take voice identification just like an audio fingerprint just like we say that we have a fingerprint sensor.
+11:40:17 We can say that invoice identification we taken aboard the audio fingerprint or an audio template.
+11:40:25 So, moving on. So, whenever we talk about voice identification It is usually misinterpreted as a speech recognition, but these two aspects are completely different from each other.
+11:40:37 And these are completely two different technologies. So when you talk about voice identification, it is about verifying the identity of the speaker as it, who is speaking, but in speech recognition we add context to what has been spoken.
+11:40:51 Like I told you invoice identification we only care about identifying the speaker and not what has been spoken in speech recognition we don't care about who's speaking, we just worry about what has been said and we try to add context to it.
+11:41:01 Okay, so what do you think, how has it been made. So, city, clearly has an integration of both voice identification to identify our voice and speech recognition to add context to the commands which we are telling city.
+11:41:19 Okay.
+11:41:22 All right.
+11:41:24 Okay, Bagua wants to speak something okay I'll just unmute you.
+11:41:28 All right.
+11:41:31 Okay, please say, oh man, sorry man. Sorry.
+11:41:37 Just events like I got disconnected after like pixel animated series was found by Steve Jobs after that like this content just not going to do can you tell what you said before I'm like I was very interesting to listen to what you said before.
+11:41:50 Yeah, sure. I just we just saw a couple of videos on the applications of voice identification and how they're making our life easy. Okay, I'll just see if there's any theory but I will repeat it for the videos I can share it with you You can later it's
+11:42:04 nothing. Nothing to worry about that. Okay.
+11:42:10 So, I just repeat just because she was so voice identification is basically knowing who is talking, identifying the speaker and not what has been spoken and speech recognition is basically understanding what words has been spoken and adding context to
+11:42:27 it. So, that's just. That is what I just discussed, and I also said something about voice identification that it is one of the biometric technology biometric means when you take biological aspects of user to identify him or her.
+11:42:44 So voice identification is also one of the biometric technologies in which we take audio as an input. You can also relate it to us, or do you think of it.
+11:42:53 That is all I discuss, so like I was telling you that it is an indigo series an integration of both voice identification and speech identification. So, let's see more about it.
+11:43:04 Let's see what are the factors, and what is there.
+11:43:08 So, like I told you about the two different technologies, speech recognition being and being a completely new one, and was identification being completely different.
+11:43:19 Let's see what happens in the back end of voice identification.
+11:43:23 Okay, so how it actually works like I told you that we take the physical and biological aspects of a user's voice and then you try to digitize it, how do we try to digitize it, we digitize it with respect to the amplitude, or the intensity of the voice
+11:43:38 we can take any parameter to do that. Okay. Let us discuss some of the parameters which come as in one of the aspects of identifying a user's voice. So the first one is intensity, how intense is the voice, how, what is the amplitude of the voice.
+11:43:56 And the second one is pitch. So, which is largely used to identify voice and differentiate between men and women because women happen to have a very high pitch and men happen to have a relatively low pitch, then women.
+11:44:10 And then the third one is dynamics in Dynamics. It is basically on how you're talking your accent, how many breaks you take while talking how many gaps are there and just the way you talk, trying to learn that.
+11:44:24 Okay, so now my question to you guys is since I told you that we can digitize sound and it is definitely able to be plotted with the help of a graph right.
+11:44:37 If we can convert something to numbers it can definitely get started. So here you can see a Soundwave pictorial representation. So, it has been counted against frequencies was it was this time.
+11:44:48 So the waves which you see here, these ways is the sound wave. So, the press and the tasks are basically because of the amplitude differences or the damn thing in the sound way.
+11:44:59 Okay.
+11:45:01 So, okay, moving ahead, how do we actually do it so like I told you we digitize it, how do we do it in the Python environment. So to do that we have Nebraska library.
+11:45:13 So what is the brochure library. So liberal center is basically a package, which helps us to read and write audio files in the Python environment. It basically helps us to do some audio analysis so it offers various functions light load functions and
+11:45:27 other functions. So talking about the load function here so I'll just post make you explain what is the statement so why is basically a variable in which I want to store, or whatever output.
+11:45:38 This function gives me. Okay, so that is the sampling rate. So sound wave. Whenever you're dealing with sound where you have to sample it at a particular frequency.
+11:45:48 So when you don't put on a specific frequency it takes the default frequency of 22,050 hertz, otherwise usually to sample it 16,000 hertz, that's the ideal something right.
+11:46:00 Okay.
+11:46:01 Now what happens when you use liberals are dot loop function. So, it reads samples the input at the specified sampling rate and converts the audio and float numbers with respect to the amplitude of your voice within minus 121.
+11:46:17 Okay.
+11:46:19 Is it clear guys, whatever I've explained it, is there any doubt I can explain because it's kind of important it will help you with the implementation part.
+11:46:27 Okay, I should just unmute unmute her.
+11:46:31 Okay.
+11:46:42 So,
+11:46:41 okay, nothing. Okay. No, she has requested to please repeat okay and dish also okay so guys okay. So guys, this is the syntax of using the load liberals are not load function, which helps us to digitize our audio signal so whenever we pass an audio name.
+11:46:58 Let's say I passed my own body, audio in itself. And I do not mention the sampling rate so what does not load function will do it will re sample my audio at 13 sampling rate.
+11:47:12 Let's say 16,000 hertz, and then it will convert it into float numbers, ranging from minus one to one. Now, though, now that fluid conversion is usually on on basis of the amplitude of my audio.
+11:47:25 Okay.
+11:47:27 So as you can see after using the function this is the probable Outcomes Research, which I am getting, which is a minus, and all the values with you see they all range from minus one to one and are in the type food.
+11:47:39 So now, is it clear guys
+11:47:44 if you guys are not able to understand the mathematics just understand that liberal so library helps you to digitize your audience, or your voice. Okay, that it has raised his hand, okay he left.
+11:47:57 Okay anyone else. Is it clear please right guys mentioned it in the chat box.
+11:48:13 Okay, Justin has something to say please
+11:48:20 can we do in other languages on supporting language are all in Python. Yeah, you can do it on another coding languages as well, but if you're doing it in Python library is the library for you.
+11:48:30 Also the final code implementation of voice identification will be done in Python, so that is why I'm sticking to it right now.
+11:48:41 Okay, formula has something to say.
+11:48:48 Okay.
+11:48:50 Yes. Can you please say.
+11:48:55 Remember men can you buy at using area.
+11:49:00 Because our voice like I showed you in the sound wave. It goes like this right so there is changing amplitude again and again and again. So, each value represents that change in amplitude basically
+11:49:17 formula you were saying something
+11:49:21 like Siri uses AI and Merlin.
+11:49:27 It gives us all three man. Yes, four different different applications he uses all three I mean sometimes just what you if you talk about Apple Watch, it gives you sleep tracking system so for that machine learning is used for say deep learning is used,
+11:49:38 and is used. So for different different application examples different different technologies are used.
+11:49:46 Okay. Mm hmm deep learning man.
+11:49:50 Yeah.
+11:49:50 And they'll be also.
+11:49:54 Okay.
+11:49:54 Yeah.
+11:49:56 Oh, right.
+11:50:01 Okay so Justin Do you have anything to say again.
+11:50:11 Okay, I think, Okay, I think we can move ahead.
+11:50:16 So now you guys know how to digitize your audio simple signal sorry.
+11:50:22 Now, this is one more example. This is why and this is x, I've done the same thing. Alright, so moving on.
+11:50:31 If you see here.
+11:50:35 XMY, and I take a new sample, in which I have seven audio files and digitize them. And now if I say that,
+11:50:45 if I can use simple math to calculate the vector difference between the new sample and the existing value. Okay, so rather than going to mathematic about this.
+11:50:55 If I simply asked you guys, if I want to see which which of these audio samples much to each other the most. Then, do you think I can do this.
+11:51:05 Or how do you think I can do this. And if you don't, I mean the first question is do you think we can we can do this, if you think we can then how can we do this, it Do you know any libraries of tools anything, through which we can do this
+11:51:24 for all your input you can put in the chat section or you can just simply raise your hand guys
+11:51:36 okay dentistry is just one.
+11:51:44 Okay, any input from us. Okay, so I'll tell you we can numb by maybe. Okay.
+11:51:53 Okay. Any other guesses guys.
+11:51:55 So they said, that number can be used to converted any other.
+11:52:01 Okay, so I'll tell you, so like they're working in Python environment so even talk about different other languages also. So, we have speaker verification tool kit.
+11:52:12 It is basically a module, which offers different tools to perform such operations like computing distance between two audio signals and finding nearest value or the nearest audio signal available.
+11:52:24 So all these operations can successfully be done using that speaker verification tool. Okay, moving on.
+11:52:34 So, below we have covered voice identification, how do we digitize our signal and how can we use speaker toolkit to verify the user and to calculate different other functions.
+11:52:47 So now, if you guys have any notes after know you can put it because From now on, I will be discussing another topic.
+11:52:57 Okay.
+11:52:58 Okay. The output of the previous one, which one you're talking about Coachella, the x and the y one.
+11:53:13 This is the output. Okay, I'll just.
+11:53:17 Okay, so this was my previous slide in which what I did, I took why variable and X variable and ynX are two different audio files I just simply converted them into an array of float numbers, which have digitized my audio file.
+11:53:33 So this is output Don't worry, we'll implement it in the end of the session as of now you just need to remember it ok so this library used to digitize output and everything.
+11:53:42 Okay.
+11:53:46 Alright.
+11:53:47 So moving on. Does this story of Siri and here heavy RV through with everything, or what he does too But till now we only discussed how it identifies our voice.
+11:53:58 We don't know how it processes are boys how series able to find context in our speech, and you.
+11:54:07 But, corresponding to that. So how do you think it actually happens, the law let's discuss that.
+11:54:14 So
+11:54:20 CD understands what we're seeing with context with the help of natural language understanding.
+11:54:26 Okay, so what is natural language understanding, so natural language understanding, also known as NLU is basically a subset of NLP. So for those who don't know what is nlp, nlp is basically a processing technique in which we convert text two numbers like
+11:54:42 we just convert audio signal to numbers in NLP we convert text to numbers, because why because machines only understand binary language so NLU is a subset of NLP.
+11:54:53 So, what does an interview help us to perform it basically helps us to add context to the speech because machines do not understand context for them, it's just all numbers they don't understand what is the context of it, like for an example, if you take
+11:55:07 an example, if it is a statement here Hey Siri open WhatsApp, and if you pass this, and then you algorithm, it will give us an output in a way, open the WhatsApp app.
+11:55:17 And that's how Siri understands. Okay, so this is the task, I have to perform. Alright.
+11:55:24 So what did we learn about any new that it adds context to what has been said. And then, it generates relatively narrative. Okay, moving on, they will see some examples of NLU to understand it better so when we have a complex statement, like, which can
+11:55:44 have more than one context to it, like this one, he's looking for a match. Now, match can have to context, it can be a partner, like, it can be a Tinder match it can be for a boyfriend or a girlfriend, anything, or it can be related to sports cricket
+11:56:00 football anything any match rate. Now how does CD understands the context. So we pass it in the interview recorded from it LCD that there can be two context so you can perform these two does, either you can open dream 11 app, or you can open Tinder.
+11:56:17 Okay, so.
+11:56:19 All right, moving on, let's have another example of NLU.
+11:56:26 So, okay, like I talked about how Siri can add context to what has been said. Now, that is not enough for Siri to generate relatively, you know, meaningful responses to it because CD can only understand context but what she has to do has needs to be generated.
+11:56:49 generated. So for that we use natural language generation. So now what is natural language generation so it is basically just opposite of NLU, which we just talked about.
+11:57:00 So in NLP what we were doing. We were adding context to what was being spoken in NLP, what we will do will basically come up with the narratives are responsive.
+11:57:11 The corresponding to the context which has been added to the text. Okay. So, okay, tracing backtracking what is happening, we identified the voice, using was identification.
+11:57:25 Now, we can understand the text of what has been said, using NLP we converted into numbers. Now using NLU we added context to it, and now using NLP, what we are doing.
+11:57:37 We are generating response corresponding to the problem which we have been asked. Okay.
+11:57:44 So like if you look at this example.
+11:57:46 If you have a statement that says, How do I tell my mom, I'm gay. So, if we add context to it, then energy what it will do and if you pass it in the energy, and what it will do it will find all the task, so that asked this to tell mom.
+11:57:58 So the task is to tell mom. Okay, so he simply said, send a message to mom. Now what is the subject, I am gay. So here just put it as a text message, I am gay and send it to me.
+11:58:15 Alright, another example. So if you pass this white it will make you and then it will just simply come up with the narrative like for one reason only to make your life easier and more fun.
+11:58:26 So, this is how energy works, actually.
+11:58:29 So, it also helps us to set, there also helps us suggesting alternate options like if you say I am drunk and you drive, so he'll tell you don't expect me to get you home and now but it is suggest Anna to call a taxi.
+11:58:42 So, this is how the whole city voice identification and speech recognition system all works ok guys.
+11:58:53 So, now, do we have any doubts update here, because you're almost thorough with the theory revolvers covered every topic. So, even if I tried to backtrack you with what we have talked about we first talked about how do we identify voice you, and then
+11:59:07 with about how do we convert it and digitize it, then we talked about how do we add context to it and then we, in the end we talked about how do we generate narrative, or meaningful responses.
+11:59:25 All right. Okay, and then Gee, I have to repeat, and then we have an attendee who wants to speak of the shape.
+11:59:33 All right, so be sure what do you have to say hello.
+11:59:38 Am I audible. Yes you are audible.
+11:59:41 I just wanted to ask you that in the previous example, can I get a match means, in a football match or a match in Tinder. So, yeah, how does the program with the language considers that today.
+11:59:56 Miss, it is. Is it still embedded embedded in that code that the preference should be, if there is a match to the football match today. She will prefer to tell you that the first one where it says today, but how it works.
+12:00:09 Nice.
+12:00:10 I just want to ask
+12:00:13 them how does it and understand that, which should be preferred the most.
+12:00:18 OK, so there are different dedicated libraries to do that like I told you we have an LP, right, which helps us to convert text to a numbers. Similarly, we have different algorithms for NLU and energy, which helps us to perform these tasks.
+12:00:34 So, I can't tell you the backend statistics of that thing. The early in this session because it will take a lot of time, and you need suitable examples for it as well.
+12:00:44 But if you saw even search it on google it will you know just help you with many examples, or many articles in which you can see with a particular case study they have explained unfolded.
+12:00:57 So, I thought now you just need to understand that these are just algorithms like machine learning algorithms classifier algorithms, how do they work, you right similarly these algorithms work and get you the output.
+12:01:11 Okay, thank you. Okay, anyone else.
+12:01:19 All right.
+12:01:32 Um,
+12:01:24 okay, well gorilla wants me to repeat NLP, okay.
+12:01:30 So, all right. So, energy.
+12:01:33 So energy basically so popular Are you clear with what nu does it add context to your text. So that's a, you know, meaningful responses can be drawn out of it.
+12:01:45 Okay, now energy what it does, it helps you do generate responses, a city understands what she has to do but she does, but how does she know what now what she understood what you have told her, but what she has to do in return what how she, how does she
+12:02:10 decide that for that we use energy, basically energy helps you do drawn editors are drawn and sponsors like it will tell you open the dream 11 app or tender.
+12:02:12 So energy will tell you like in this question. In this example, if you see why did after make you to city understood what has been asked. So now, energy is basically what doing it is helping to derive this set of answer for the user.
+12:02:26 So this is the work of 10 energy to generate responses, meaningful responses respective, or to the problem.
+12:02:35 Is it clear now.
+12:02:43 Is it clear now.
+12:02:45 Okay, great.
+12:02:47 So guys, we're thorough with the 30 part, we now know how everything I mean most of the things work. So now let's actually see the future of this thing.
+12:03:02 So, this is a very interesting video and I hope you all will like it. Let's see. And then we'll put the scrum.
+12:03:11 Let's say you want to ask Google to make your haircut appointment.
+12:03:16 Hi, I'm kind of like a woman's hair cut for a client.
+12:03:19 I'm looking for something on May 3.
+12:03:21 It turns out, a big part of getting things done, is making a phone call. We think AI can help with this problem.
+12:03:30 Let's say you want to ask Google to make your haircut appointment on Tuesday between 10 and noon.
+12:03:37 What happens is the Google Assistant makes the call seamlessly in the background for you.
+12:03:44 So what you're going to hear is the Google Assistant actually calling a real salon to schedule the appointment for you.
+12:03:52 Let's listen.
+12:03:59 Hi, I'm kind of a woman haircut for a client.
+12:04:03 I'm looking for something I'm a third
+12:04:13 time are you looking for well.
+12:04:17 At 12pm, we do not have a 12pm available, the closest we have to that is a 115.
+12:04:24 Do you have anything between 10am and 12pm, depending on what service. She was like what services you're looking for.
+12:04:33 Just a woman's hair cut for now.
+12:04:35 Okay, we have a 10 o'clock.
+12:04:37 10am is fine. Okay, what's your first name.
+12:04:50 The first name is Lisa.
+12:04:43 Okay perfect so I will see Lisa at 10 o'clock on May third.
+12:04:48 Okay. Great. Thanks. great. Have a great day. Bye.
+12:05:02 That was a real call you just heard.
+12:05:05 The amazing thing is that our system can actually understand the nuances of conversation.
+12:05:09 We've been working on this technology for many years. It's called Google duplex.
+12:05:24 It brings together all our investments over the years and natural language understanding, deep learning text to speech. By the way, when we had done the system can give you a confirmation notification saying your appointment has been taken care of.
+12:05:29 Let me give you another example. Let's say you want to call a restaurant but maybe it's a small restaurant which is not easily available to book online.
+12:05:38 The call actually goes a bit differently than expected. So, take a listen.
+12:05:54 Hi, I'm I'd like to reserve a table for Wednesday the seven.
+12:05:54 Seven people.
+12:05:57 It's for four people.
+12:06:02 Well people when
+12:06:03 Wednesday at 6pm.
+12:06:06 Oh, actually we need to light up for like a five people for beautiful go you can come.
+12:06:13 How long is the way usually to be seated.
+12:06:17 When tomorrow week eight.
+12:06:21 For next Wednesday. The seven oh nice I'm too lazy, if you can cover for me. Okay.
+12:06:29 Oh I gotcha. Thanks
+12:06:39 again that was real call we have many of these examples where the calls quite don't go as expected, but the assistant understands the context and nuance, it knew to ask for rate times in this case, and handle the interaction gracefully.
+12:06:54 But we're still developing this technology. And we actually want to work hard to get this right, get the user experience, and the expectation right for both businesses and you users.
+12:07:06 But done correctly, it will save time for people and generate a lot of value for businesses.
+12:07:15 So, in this video you can clearly see how Google is obsessing over improving the user experience for voice assistance and how I had they've gone in this game.
+12:07:26 So now it's time to take your doubts guys, so any doubts in the session.
+12:07:33 If you have you can put it, you can raise your hand and then we'll finally move on to the coding section, in which will implement a voice recognition system.
+12:07:46 If I'm not wrong.
+12:07:49 Sorry.
+12:07:55 This is around two years old so they shouldn't include much more by now. Right. Yeah, they have improved, much more and they're improving every day, so it's still in development, some big.
+12:08:10 What kind of options open it with you know NLU.
+12:08:14 So, there are many options you can see NLP is basically a part of data mining, so you can actually work in the deal section, and you can work even though it gets it done and this if you know I know you, obviously you need to learn more skills, other than
+12:08:28 NLU and NLP to work as a data analyst but yes, there are enough career opportunities for it.
+12:08:37 Why city slightly faster than Google Assistant.
+12:08:44 I think, according to me my personal opinion is and google assistant is faster than Siri.
+12:08:51 But if you say so. Maybe it's because of the algorithm us behind us.
+12:08:58 I don't know, maybe
+12:09:04 this competitive coding is must work on such projects, and such things can you please tell us no competitive coding is not a requirement to work on such projects, you just need to learn a programming language.
+12:09:16 So when you talk about data science Python and our other most famous programming languages. So, gets killed in any one likely by them because it gives you a hospitality on whole load of projects.
+12:09:30 And then, yeah, you don't need competitive coding.
+12:09:34 It can just go around with Python and then you can keep upscaling yourself in different algorithms.
+12:09:41 And we give them emotions to computers. Yes, we can. But in the form of algorithms. So there are many projects done on sentiment analysis in which we try to analyze the sentiment of the reviews which the users have posted.
+12:09:54 So yes that is possible, of which other companies use data science. Almost every industry uses data science, these days to analyze their data, and to draw meaningful insights which has their businesses to get more profits.
+12:10:10 And can you explain the role of our data scientists, so our data scientist is someone who create models predictive models classifying models, anything.
+12:10:26 Basically, data scientist is someone who does the modeling techniques and comes up with different algorithms to solve a particular problem statement is YouTube a good place to learn about deep learning, yes of course you can learn the things the more
+12:10:35 deep learning on YouTube, and which language would you prefer according to in today's technical world which students should learn. Okay, so according to my opinion and if I talk about my own journey, I started off with Python because for me it was quite
+12:10:50 easy to get my hands on. So I started off with Python and then I came across various opportunities and versatility that came across with Python, so I was able to work on different domains like you can work on web development, you can work on software
+12:11:05 development, you can work in data science, you can actually work on, you know, back in development also using Python so for me by 10 is like all in one language so I would prefer that by, you can, and you should go with by them, and it's easier to learn
+12:11:21 also. So, I think you can go with it.
+12:11:25 Ds use this method mathematical tools.
+12:11:28 What is this, or shuttle Can you please be specific,
+12:11:35 how to improve our logic skills and programming.
+12:11:38 Just keep practicing there's no shortcut there's no way out just keep practicing.
+12:11:48 Could you please tell us from where you learned by then I'm in YouTube or any other platforms. Okay, so I actually learned it from these courses which I did online, I can talk specifically about it, and then when I joined the company.
+12:12:20 So it was an amalgamation of too many sources.
+12:12:20 This
+12:12:24 data science uses mathematical Lucy yes of course in data analytics is all about statistics, and in machine learning, there's a lot of mathematics which goes on in the back end of the models.
+12:12:35 So yes, it uses.
+12:12:41 And
+12:12:41 three programming languages, according to you and 2021.
+12:12:44 So it depends on which domain you want to go for See, I would say, if you talk about specifically data science, then you can go for Python, you can go for odd.
+12:12:57 And then the third, I think these two languages are more than sufficient, even by thinking do most of the work for you so by to learn three languages, when you can do, you know, just do all your task with one or two.
+12:13:07 So, how can I learn Python on tech alone, yes of course you can learn Python on tech learn in fact we have a sessions are scheduled almost every day on Python, and we have goals, in particular, in which you respect a specialized you in Python language
+12:13:23 we even give you hands on projects to do at the end of the day, you know cause and yeah you can definitely learn your man what is preferred language for competitive programming preferred for competitive programming preferred languages so I use it.
+12:13:41 c++.
+12:13:46 We have a question which which programming languages most useful in the future.
+12:13:52 Since I work in the data science industry so for me I think Python and are, are the most useful languages.
+12:14:07 And
+12:14:07 should we will learn See, I would not suggest to for you guys to learn see, even I don't know why it was in my curriculum when I was doing engineering.
+12:14:16 So, I have not seen I mean, it's been more than 10 years since I will be working I have not seen much applications of see so I will not you know recommend you to learn it, languages for software development, basically, you can do it in any language, so
+12:14:30 it's just your choice in whatever language you get your hands on and you are exporting just do it in that language should one who is learning programming language and want to work on such projects should be a pro in math to go nuts like you should know
+12:14:48 in the massive.
+12:14:51 See, you shouldn't you need not to be an expert in mathematics to do machine learning, or deep learning. But yes, you need to have a basic understanding of mathematical concepts.
+12:15:02 So if you can at least understand what is happening that's good enough, Bucky you can practice and improve everyday,
+12:15:11 can we develop applications by now yes definitely you can develop applications on Python even famous applications like Dropbox and Cora, they all use this a bike and as their back end development.
+12:15:23 Is it okay if we don't have knowledge NC yeah I depends, again, for which profile you want to go for. But yeah, I think you can manage without it.
+12:15:41 We have a q amp a. Okay.
+12:15:44 development versus app development which one is good.
+12:15:48 Both are good in their own.
+12:15:50 You know, in their own respective domains, you can't just pick one and say, both have enough projects and job opportunities for you. So you see in this domain Do you have interest the most and then go for it.
+12:16:08 Okay, so I guess that enough by your side guys so let's move on and talk about the code implementation.
+12:16:16 Okay, ma Lakshmi Raise your hand.
+12:16:23 Is that in, tell me some standards based on c++ and series based on Python, but actually c++ is faster than Python, then mud series faster than Google Assistant lives.
+12:16:40 So you just said that series based on Python and google assistant is based on c++.
+12:16:46 And yet, series faster than.
+12:16:49 Okay, well assistant. See, language is the first basic step of building an application.
+12:16:57 Above it you have to make features and you have to you know do efficiency checking so it doesn't necessarily depends on the language. It also depends on the programming and on the algorithm which are using in that particular language so when you're new
+12:17:11 and when your name, then these points come in consideration, and when you are working on lighter projects. But when you're working on such heavy projects.
+12:17:25 Usually, which language you are doing in doesn't make much difference because it's more of about the algorithms and deep learning and machine learning algorithms which are using, because they decide to speed and efficiency for your google assistant.
+12:17:39 Okay.
+12:17:41 Okay, so let's move on with their code implementation of what we've learned today.
+12:17:47 Alright, so let's talk about putting them. It's a very easy one, you will find it very easy to catch up. So, like I told you that we use speaker verification toolkit in Python language to perform audio analysis.
+12:18:02 so I have installed it.
+12:18:05 Then I've installed number. Number is basically a higher version of number library. It helps you to perform complex statistical problems and 0.4 it is the version number.
+12:18:17 And I'm importing various tools, which you will see in the code below. From the speaker verification tool kit and then I'm importing lab rasa for loading my files so what I've done here is like I told you how do I digitize my audio file I simply upload
+12:18:34 it, and then I load it so you can see this represents my audio file now it has all the features of my audio file a ticket.
+12:18:41 So similarly, I've uploaded to the data files.
+12:18:45 One with rock with the and one with proximity to these are both my audio files. Okay, which I have recorded, and then I have removed the silence from my audio and then I've extracted meaningful features from it, and then moving on, I'm due to the distance
+12:18:58 as in how similar. My both audio files are from each other so the difference between both my artifices this this much. Okay, now what I've done I've taken one more audio file, which is by the name of example.
+12:19:13 So in this one I've taken this is not my voice, this is someone else's random voice okay so what I'll do I'll check.
+12:19:22 Which one's the most closest among all these two fighters. Okay, so, perform similar applications of removing silence and extracting features from you.
+12:19:30 then I've completed the distance, and then I have used the fine years tool to get me the nearest voice. So, this index is basically, this is the list of my audios which I'm passing and this is my sample, audio, to which I want to find my nearest voice
+12:19:48 data. Begin. So, this is the index of the file, which is closest to mine which is data one because it doesn't start from 001 so data one is the nearest data to have this three because both are my audio files and this one was example.
+12:20:05 So this is the actual implementation of voice identification which you've just seen, so I can share this this file with you guys, so that you can just, you know, practice things on your own and see in your free time how it actually happened.
+12:20:23 So, any notes. Guys, you can just share in the chat box or just raise your hand.
+12:20:31 So we've just completed our workshop with hands on implementation on voice identification.
+12:20:38 So any doubts guys.
+12:20:46 Okay, so it looks like we've covered all the doubts already so what we can do is access denied. All right.
+12:21:02 Alright.
+12:21:05 I shared it with you guys.
+12:21:08 Which output output is this thing output shows that data one file is the nearest the data to file, which means, which is obviously correct because both the files are recorded in my voice, and the data three was a sample voice.
+12:21:25 Okay. Is it fear popular.
+12:21:32 Okay, so I'll just allow access to you guys some, many of you are asking for it.
+12:21:42 Okay.
+12:21:43 Okay, any other those days. So, yeah. So there's one more link in the chat section you can always get to see and use it, you'll get access.
+12:21:54 All right.
+12:21:57 So, at the end of the session you'll get a feedback form or I'll just share the link with the ways. So, any of you who wants to get the certification of this particular session on voice identification can fill that feedback form, and also guys please
+12:22:12 do fill the feedback form with full honesty because it will help us improve and get better every day. So I'll just share the link with you all.
+12:22:21 Make sure you fill the link. Sorry form. If you want the certificate, because this will help us validate who attended the workshop, actually. Okay. So without this, we don't have any data to generate certificates for y'all.
+12:22:41 So I'll share the
+12:22:45 link.
+12:22:58 Please check the link shared by canal for accessing the file.
+12:23:07 You can get recording of the today's workshop for gala but we keep organizing workshops every weekend, so you can keep registering and have a look at the website and keep in touch, so that you can, you know, attend and learn more things about it.
+12:23:23 How do I start my programming career. So first things first pick up a graph programming language and get your hands on it.
+12:23:31 Do some projects on it, and then just go for it.
+12:23:38 Okay, guys please fill the feedback form,
+12:23:43 because otherwise we won't be able to generate certificates for you.
+12:23:48 Okay, so which specializations Are you considering, first of all appreciate you tell me about that first.
+12:24:07 open next door which I like and then specialize in it.
+12:24:11 You can attend workshop like these and explore your likes and dislikes. So, this session was on voice identification we have another workshop coming on.
+12:24:21 With recommendation systems and so on. So keep attending these workshops so that you get your, you know, Id on which things you like in which you don't and if you don't find data science interesting then you can attend different workshops go different
+12:24:37 domains, how much time it takes for you to excel invite them.
+12:24:40 If you rigorously do it you can get become an expert in like three months, or just two or three months. Honestly, I'm telling you.
+12:24:51 Jake since you don't have any idea right now just keep attending workshops, just keep, you know, finding opportunities for you where you can actually decide for things.
+12:25:00 I know in college, it's almost not here where you want to go, but just you're, you're on the right path you're attending workshops, you're actually finding so just keep doing it, it will help you somehow.
+12:25:10 So, guys, for those who are further feedback form and for those who don't have any doubts or any questions for me they can leave the session, and then thank you so much you guys would wonderful very interactive session, and I hope you like the session,
+12:25:23 and please register for the another one, if you like it. Thank you.
+12:25:29 Okay, have a shape it is on.
+12:25:34 Hello.
+12:25:35 Yes, I'm a shake.
+12:25:50 I just wanted to ask you that. Maybe the CD was invented in, I guess, 2006 or cold I guess. And at that time Python was not a very popular language that most of the languages or C and c++, do you think that at the time, c++ and C language is for us in
+12:26:08 Python voice, sorry five complexity voice.
+12:26:02 Sorry I didn't get you. You said that before Python was not so popular yesterday was made on Python. So I just wanted to ask you that, whether c++ was used in a city.
+12:26:17 At that time, means during the introduction introduction of the city.
+12:26:25 Voice
+12:26:25 of the button language was invented like 20 years ago, I guess.
+12:26:30 And at that time, C and C languages were pretty dominant at the time. So, do you think that at that time. Siri was using C or C language, C or c++ language.
+12:26:43 Oh, city was not actually written in any other language c c++, although it could have been written in those languages but it was not it was started off, it started off with Python only.
+12:26:56 Okay.
+12:26:58 Yeah.
+12:27:03 I'm gonna get get a job in Apple from universities like full name because most of the employees at Apple are graduated from international universities like Howard.
+12:27:14 Oh, I think you can get a job, irrespective of which University you belong to it just depends on your skills thorough assessment and your conceptual knowledge, these days because if you see big giants like Amazon, and even Google at hiding treasures and
+12:27:37 is hiding treasures just because on the basis of their skill set. So, if you're determined and you have the right skill set and the conceptual knowledge you can definitely get it was during the holiday.
+12:27:41 And there are many sources to learn languages I can't know the best source.
+12:27:46 See that you'll have to figure out by watching so many videos I mean which ones are best for you which one English video you're able to you know, take away most of the content and the concepts.
+12:28:00 So, this is mostly personalized so you can actually.
+12:28:08 I mean, it just depends on you I can't really comment on that.
+12:28:15 Okay guys, Android.
+12:28:18 Yes.
+12:28:21 Yes. Your audible actually how they said all the languages and all man like, there will be many words and and putting on them like how they extract data.
+12:28:47 put that data into it. Through landed on how they put all that.
+12:28:49 So what they do is they train city on different different languages and accents and, you know, question bank, so that series able to retain that so if you know about machine learning models, what do we do there.
+12:29:04 We are trained, those things so even the CD has been trained this way in different languages so that is right understand so many languages and even accents, to some extent.
+12:29:20 Is there any use of programming languages and mechanical engineering, if you are publishing if you are looking for a career in data science or in any IT industry, then yes definitely there's us because these days, irrespective of which specialization
+12:29:38 you do and graduation people happen to join any industry. So, you need to be sure of what which industry want to join. Okay.
+12:29:48 Um, can you please send the link of this recording session and also the next sessions I do ok so the session is not.
+12:29:55 You can't get the recording of the session, but we can again schedule it on some other day.
+12:30:02 Because since many of you are requesting, but the next session scheduled you can get it on the website, you will see many posters of our upcoming workshops and sessions, you can just book them and save yourself from the last minute hassle.
+12:30:18 What's the difference between Mac and Windows.
+12:30:21 Obviously the Mac is iOS and Windows is different so that's pretty much basic difference there. The development is different. The system scripting is different, everything is different, next session you can book from Tachyon not life, we have a session.
+12:30:39 here. Okay so guys we have next session on Instagram patient filter using computer vision, it's coming on 21st may Friday. So if you're interested in it please book it.
+12:30:50 Okay, so I hope you guys have heard the feedback form I'll share it with you guys again.
+12:30:58 OK, and then all of you who don't have any doubts can leave. Okay.
+12:31:09 Yes, for girl okay okay.
+12:31:14 I share videos with you.
+12:31:25 Please share your email address with me I'll mail the videos, links to you so that you can watch it, because right now I can't find it, it will take time.
+12:31:36 Okay.
+12:31:36 Okay, I've got it. I'll send it to you.
+12:33:12 Well, glad to share it with you.

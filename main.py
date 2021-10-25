@@ -23,7 +23,7 @@ def _get_features(X):
         return model.predict(np.expand_dims(X,0))
 
 DETECTION_THRESHOLD = 85.
-FPM = 30
+FPM = 60
 WINDOW_SEARCH_SIZE = 6
 
 slides_path = 'slides/'
@@ -33,7 +33,7 @@ slide_files = [os.path.join(slides_path, x) for x in slide_files]
 org_slides, slides = utils.load_slides(slide_files, target_shape, content_config)
 slides_feature = _get_features(slides)
 
-video = 'videos/3.mp4'
+video = 'videos/1.mp4'
 cap = cv2.VideoCapture(video)
 fps = cap.get(cv2.CAP_PROP_FPS)
 FRAME_SKIP = utils.get_frame_skip(video, FPM)
@@ -45,12 +45,10 @@ frame_i = 0
 
 end_timestamps = ['']*len(slide_files)
 start_time = datetime.fromtimestamp(0)
-def get_time(seconds):
-    hour = seconds // 3600
-    seconds = seconds - hour*3600
-    minute = seconds // 60
-    seconds = seconds - minute*60
-    return "{}:{}:{}".format(int(hour), int(minute), int(seconds))
+
+frames = cap.get(cv2.CAP_PROP_FRAME_COUNT)
+total_seconds = int(frames / fps)
+end_time = utils.get_time(total_seconds)
 
 while True:
     grabbed, org_frame = cap.read()
@@ -75,7 +73,7 @@ while True:
             current_slide = current_slide + sim_index
             timestamp = cap.get(cv2.CAP_PROP_POS_MSEC)
             seconds = timedelta(milliseconds=int(timestamp)).total_seconds()
-            timestamp = get_time(seconds)
+            timestamp = utils.get_time(seconds)
             end_timestamps[current_slide-1] = timestamp
             print('Topic End Triggered - ',end_timestamps[current_slide-1])
         
@@ -83,10 +81,11 @@ while True:
     #     cap.release()
     #     break
 
+end_timestamps[-1] = end_time
 data = {}
 data['slide_no'] = list(range(0, len(slide_files)))
 data['slide'] = [' ']*len(slide_files)
 data['end_time'] = end_timestamps
 data_df = pd.DataFrame(data)
-excel_name = 'timestamps.xlsx'
+excel_name = 'timestamps-apple.xlsx'
 utils.to_excel(excel_name, data_df, slide_files)
