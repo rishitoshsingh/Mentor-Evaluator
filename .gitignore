@@ -2,6 +2,7 @@ env/
 clusters/
 videos/
 predictions/
+transcripts/
 __pycache__/
 .vscode/
 slides/
