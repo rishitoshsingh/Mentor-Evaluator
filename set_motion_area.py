@@ -20,7 +20,7 @@ def get_new_motion_box(corner_1, corner_2):
 motion_box = get_new_motion_box(corner_1=[0,0], corner_2=list(RESOLUTION))
 motion_boxes.append(motion_box)
 
-video_file = 'videos/2.mp4'
+video_file = 'videos/1.mp4'
 
 def showRecordingVideo(motion_boxes):
     cap = VideoStream(video_file).start()
@@ -69,17 +69,21 @@ def showRecordingVideo(motion_boxes):
     return motion_boxes[:-1]
 
 motion_boxes = showRecordingVideo(motion_boxes)
+
+if len(motion_box) == 1:
+    motion_boxes = motion_boxes[0]
+
 print(motion_boxes)
 print(len(motion_boxes))
 
 # with open('configs/motion_location.json','w') as file:
 #     json.dump(motion_boxes, file, indent=4)
     
-# with open('configs/tl_logo_location.json','w') as file:
-#     json.dump(motion_boxes, file, indent=4)
-    
-with open('configs/slide_title_location.json','w') as file:
+with open('configs/colab_h_left_banner_location.json','w') as file:
     json.dump(motion_boxes, file, indent=4)
+    
+# with open('configs/slide_title_location.json','w') as file:
+#     json.dump(motion_boxes, file, indent=4)
     
 # with open('configs/colab_logo_location.json','w') as file:
 #     json.dump(motion_boxes, file, indent=4)
